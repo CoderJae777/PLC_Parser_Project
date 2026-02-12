@@ -42,7 +42,7 @@ Our project proposes a C-based LaTeX-to-Markdown converter that parses a restric
 
 ---
 
-### 4) Related Work and Differentiation
+### 4) Related Work and Differentiation *might remove*
 
 OpenAI’s [Prism](https://openai.com/prism/) is a **LaTeX-native scientific writing workspace** that integrates GPT-5.2 for drafting, revising, collaboration, and publication preparation inside a cloud editor. It is designed to support the LaTeX authoring workflow rather than perform deterministic format conversion between markup languages. 
 
@@ -54,4 +54,4 @@ Our project targets a different problem: **reliable, parser-driven document conv
 - robust diagnostics and recovery for malformed input,
 - CLI-based batch processing suitable for local/CI workflows.
 
-In short, Prism improves writing _within_ a LaTeX workspace, while our tool addresses **structured cross-format translation** and parser robustness—an engineering gap Prism does not primarily aim to solve
+In short, Prism improves writing _within_ a LaTeX workspace, while our tool addresses **structured cross-format translation** and parser robustness, an engineering gap Prism does not primarily aim to solve
