@@ -17,6 +17,6 @@ output nameoffile.exe
 */
 int main(void)
 {
-
+    printf("%s", "Gay");
     return 0;
 }
