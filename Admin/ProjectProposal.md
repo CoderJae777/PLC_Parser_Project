@@ -44,7 +44,7 @@ Our project proposes a C-based LaTeX-to-Markdown converter that parses a restric
 
 ### 4) Related Work and Differentiation
 
-OpenAI’s [Prism](https://openai.com/prism/) is a **LaTeX-native scientific writing workspace** that integrates GPT-5.2 for drafting, revising, collaboration, and publication preparation inside a cloud editor. It is designed to support the LaTeX authoring workflow rather than perform deterministic format conversion between markup languages. :contentReference[oaicite:0]{index=0}
+OpenAI’s [Prism](https://openai.com/prism/) is a **LaTeX-native scientific writing workspace** that integrates GPT-5.2 for drafting, revising, collaboration, and publication preparation inside a cloud editor. It is designed to support the LaTeX authoring workflow rather than perform deterministic format conversion between markup languages. 
 
 Our project targets a different problem: **reliable, parser-driven document conversion** between LaTeX and Markdown for portability and documentation reuse. Specifically, we focus on a constrained, formally defined subset and provide:
 
